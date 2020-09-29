@@ -12,11 +12,11 @@
                 <form id="photos" method="POST" enctype="multipart/form-data">
                     <div class="input-file-uploader">
                         <input type="file" name="image" id="input01UPhoto" class="btn-link"
-                               title="Seleccionar foto" accept="image/*" required/>
+                               title="Seleccionar foto" value="Seleccionar foto" accept="image/*" required/>
                     </div>
                     <br>
                     <button type="submit" name="submit" class="btn btn-info"><i class="icon-upload"></i>
-                        Publicar foto
+                        Subir foto
                     </button>
                 </form>
 
