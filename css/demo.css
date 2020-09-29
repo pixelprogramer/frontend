@@ -4,18 +4,25 @@
 	src: url('Futura Extra Bold.ttf');
 }
 .title {
-    border: 1px solid #000000;
-    color: #FFFFFF;
-    font-family: 'Futura Extra Bold';
-    font-size: 58px;
-    margin-top: 43px;
+	color: rgba(0, 115, 170, 0.80);
+	font-family: Verdana;
+	font-size: 45px;
+	font-weight: bolder;
+	margin-top: 20px;
+	margin-left: 90px;
+	text-align: left;
+}
+
+.subtitle {
+	color: rgba(0, 115, 170, 0.80);
+	font-family: Verdana;
+	font-size: 45px;
+	font-weight: bolder;
+	margin-top: -10px;
+	margin-left: 50px;
+	text-align: left;
 }
 #wrapper {
-    margin: 80px auto !important;
-    min-height: 560px;
-    position: relative;
-    right: 0;
-    width: 500px;
 }
 @font-face {
     font-family: 'BebasNeueRegular';
@@ -42,19 +49,19 @@ table {
 	border-spacing:0;
 }
 #wrapper p.button input {
-    background: none repeat scroll 0 0 #3D9DB3;
-    border: 1px solid #1C6C7A;
-    border-radius: 3px;
-    box-shadow: 0 1px 6px 4px rgba(0, 0, 0, 0.07) inset, 0 0 0 3px #FEFEFE, 0 5px 3px 3px #D2D2D2;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
-    font-size: 24px;
-    margin-bottom: 10px;
-    padding: 2px 5px !important;
-    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
-    transition: all 0.2s linear 0s;
-    width: 30%;
+	background: none repeat scroll 0 0 #3D9DB3;
+	border: 1px solid #1C6C7A;
+	border-radius: 3px;
+	box-shadow: 0 1px 6px 4px rgba(0, 0, 0, 0.07) inset, 0 0 0 3px #FEFEFE, 0 5px 3px 3px #D2D2D2;
+	color: #FFFFFF;
+	cursor: pointer;
+	font-family: 'BebasNeueRegular','Arial Narrow',Arial,sans-serif;
+	font-size: 24px;
+	margin-bottom: 10px;
+	padding: 2px 5px !important;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+	transition: all 0.2s linear 0s;
+	width: 30%;
 }
 fieldset,img { 
 	border:0;
@@ -83,14 +90,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 /* General Demo Style */
-body{
-	font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-	background: #1984bc url(../images/images.jpg) no-repeat;
-	background-size:cover;
-	font-weight: 400;
-	font-size: 15px;
-	color: #1d3c41;
-	overflow-y: scroll;
+body {
+	background: rgb(240,242,245);
 }
 a{
 	color: #333;
@@ -100,7 +101,7 @@ a{
 	width: 100%;
 	height: 100%;
 	position: relative;
-	text-align: center;
+	text-align: left;
 }
 p.change_link {
 	background:none !important;
