@@ -30,9 +30,7 @@ body{
 .margin-p{
 	margin-left:50px;
 }
-.mes {
-    margin-bottom: 35px;
-}
+
 .col-md-10 input {
     margin-left: 12px;
     padding: 5px;
@@ -90,10 +88,29 @@ h1,h2,h3,.highlight,.navbar a,#masthead h4 {
     padding: 7px;
     width: 301px;
 }
+.message1 {
+    border-radius: 0 20px 20px 20px;
+    background-color: deepskyblue;
+    color: white;
+    padding: 20px;
+    box-shadow: 8px 8px 5px 5px #888888;
+    width:auto;
+    height:10px;
+    text-align:left;
+}
 .message {
-    border: 1px solid;
-    border-radius: 10px;
+    border-radius: 0 20px 20px 20px;
     padding: 10px;
+}
+.mes {
+    margin-bottom: 35px;
+    padding: 20px;
+    height:10px;
+}
+
+
+.infoms{
+    color: #0e0e0e;
 }
 footer {
 
