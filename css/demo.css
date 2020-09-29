@@ -107,9 +107,11 @@ p.change_link {
 	background:none !important;
 }
 select {
-    display: block;
-    padding: 9px;
-    width: 207px;
+	display: block;
+	padding: 9px;
+	width: 99%;
+	border-radius: 7px;
+	height: 43px;
 }
 .clr{
 	clear: both;
