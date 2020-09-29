@@ -1,5 +1,10 @@
 /* remove codrops styles and reset the whole thing */
 #container_demo{
+	 text-align: left;
+	 margin: 0;
+	 padding: 0;
+	 margin: 0 auto;
+	 font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
 }
 
 /** fonts used for the icons **/ 
@@ -28,7 +33,13 @@ a.hiddenanchor{
 	display: none;
 }
 /** The wrapper that will contain our two forms **/
-#wrapper {
+#wrapper{
+	width: 60%;
+	right: 0px;
+	min-height: 560px;	
+	margin: 0px auto;	
+	width: 500px;
+	position: relative;	
 }
 /**** Styling the form elements **/
 
@@ -279,37 +290,21 @@ p.change_link{
 	top: 1px;
 }
 /** Styling both forms **/
-
-#login {
+#register, 
+#login{
 	position: absolute;
-    top: 0px;
-    width: 70%;
-    height: 50%;
-    background-color: rgba(255, 255, 255, 0.5);
-    box-shadow: rgba(105, 108, 109, 0.7) 0pt 2px 5px, rgba(208, 223, 226, 0.4) 0px 0px 8px 5px inset;
-    padding: 18px 6% 60px;
-    margin: 0px 0px 35px 20px;
-    border-width: 1px;
-    border-style: solid;
-    border-color: rgba(147, 184, 189, 0.8);
-    border-image: initial;
-    border-radius: 5px;
-}
-
-#register {
-	position: absolute;
-	margin-top: -30px;
-	width: 70%;
-	height: 80%;
-	margin-left: 20px;
-	background-color: rgba(255, 255, 255, 0.5);
-	box-shadow: rgba(105, 108, 109, 0.7) 0pt 2px 5px, rgba(208, 223, 226, 0.4) 0px 0px 8px 5px inset;
-	padding: 18px 6% 60px;
-	border-width: 1px;
-	border-style: solid;
-	border-color: rgba(147, 184, 189, 0.8);
-	border-image: initial;
-	border-radius: 5px;
+	top: 0px;
+	width: 88%;	
+	padding: 18px 6% 60px 6%;
+	margin: 0 0 35px 0;
+	background: rgb(247, 247, 247);
+	border: 1px solid rgba(147, 184, 189,0.8);
+	-webkit-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	   -moz-box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	        box-shadow: 0pt 2px 5px rgba(105, 108, 109,  0.7),	0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+	-webkit-box-shadow: 5px;
+	-moz-border-radius: 5px;
+		 border-radius: 5px;
 }
 #register{	
 	z-index: 21;

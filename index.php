@@ -2,10 +2,14 @@
 			<?php include('dbcon.php'); ?>
     <body>
         <div class="container">
-                <div class="title">Red Social</div>
-                <div class="subtitle">ConfiguroWeb</div>
-            <section>			
-                <div id="container_demo" >				
+            <!-- Codrops top bar -->
+            <div class="codrops-top">
+                <div class="clr"><div class="title">Red Social ConfiguroWeb</div></div>
+            </div><!--/ Codrops top bar -->
+            <section>				
+			
+                <div id="container_demo" >
+				
                     <a class="hiddenanchor" id="toregister"></a>
                     <a class="hiddenanchor" id="tologin"></a>
                     <div id="wrapper">

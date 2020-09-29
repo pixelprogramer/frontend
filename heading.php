@@ -1,9 +1,9 @@
     <div class="row">
       <div class="col-md-2">
 		<hr>
-		<center><img class="pp" src="<?php echo $image; ?>" height="140" width="160"></center>
+		<center><img class="pp" src="images/usuario.png" height="140" width="160"></center>
 		<hr>
-		<a class="btn btn-success" href="change_pic.php">Cambiar Foto de Perfil</a>
+		<a class="btn btn-info" href="change_pic.php">Cambiar Foto de Perfil</a>
       </div>
 		<div class="col-md-5">
 			<hr>
@@ -24,7 +24,9 @@
 						<textarea name="content" placeholder="Haz tus comentarios aquí"></textarea>
 						<br>
 						<hr>
-						<button class="btn btn-success"><i class="icon-share"></i> Compartir </button>
+						<div class="col text-center">
+							<button class="btn btn-info"><i class="icon-share"></i> Compartir </button>
+						</div>
 			</form>
       </div>
     </div> 
