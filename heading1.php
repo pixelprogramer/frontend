@@ -90,8 +90,10 @@ $id = $row['member_id'];
                                                                 </div>
                                                                 <div>
                                                                     <div class="pull-right cover-btn">
-                                                                        <button type="button" class="btn btn-primary m-r-10 m-b-5"><i class="icofont icofont-plus"></i> Editar perfil</button>
-                                                                        <button type="button" class="btn btn-primary"><i class="icofont icofont-pencil"></i> Cambiar foto</button>
+                                                                        <button type="button" class="btn btn-primary m-r-10 m-b-5" ><i class="icofont icofont-plus"></i><a style="color: white" href="./edit_profile.php">Editar perfil</a> </button>
+                                                                        <button type="button" class="btn btn-primary"><i class="icofont icofont-pencil"></i>   <a style="color: white;" href="change_pic.php">cambiar foto
+                                                                            </a></button>
+
                                                                     </div>
                                                                 </div>
                                                             </div>
